@@ -31,8 +31,3 @@ We propose an efficient high-order masked batch signature scheme for lattice-bas
 
 ## License
 This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
-
-
-## Archived Version
-The stable submission version of this code is permanently archived on Zenodo:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
