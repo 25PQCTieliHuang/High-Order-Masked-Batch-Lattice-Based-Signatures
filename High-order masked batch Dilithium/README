@@ -1,0 +1,20 @@
+
+
+## Efficient High-Order Masked Batch Dilithium
+This repository contains a high‑performance implementation of Dilithium with masking countermeasures at arbitrary security orders, supporting batch signature generation for improved throughput.
+
+To replicate the benchmark results for different masking orders and batch sizes, the macros `MASKING_ORDER` and `BATCH_SIZE` need to be set in the file `masking_interface.h`.  
+In `masking_interface.h`, one will find a macro to choose the security order (`MASKING_ORDER`) and a macro to define the batch size for batch signing (`BATCH_SIZE`).  
+After setting the desired parameters:
+
+```bash
+
+cd Dilithium
+make simple_tests
+./main
+```
+
+Note that in order to avoid editing the code multiple times when iterating over different orders and batch sizes, an automated Python script called `run_benchmark.py` can compile and execute the benchmarks for multiple configurations automatically.  
+The tests have been performed primarily for the Dilithium‑2 parameter set.
+
+
