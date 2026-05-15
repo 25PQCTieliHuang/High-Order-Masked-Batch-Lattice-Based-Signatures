@@ -1,0 +1,6 @@
+racc_serial.c:95:8:RACCOON_256_32_encode_pk	16	static
+racc_serial.c:116:8:RACCOON_256_32_decode_pk	16	static
+racc_serial.c:140:8:RACCOON_256_32_encode_sk	32960	static
+racc_serial.c:200:8:RACCOON_256_32_decode_sk	160	static
+racc_serial.c:264:8:RACCOON_256_32_encode_sig	64	static
+racc_serial.c:376:8:RACCOON_256_32_decode_sig	56	static

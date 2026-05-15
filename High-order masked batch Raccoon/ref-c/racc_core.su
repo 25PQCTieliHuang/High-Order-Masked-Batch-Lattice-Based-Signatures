@@ -1,0 +1,6 @@
+racc_core.c:203:13:racc_check_bounds	32	static
+racc_core.c:74:13:zero_encoding	4224	static
+racc_core.c:261:6:RACCOON_256_32_core_keygen	295664	static
+racc_core.c:314:10:RACCOON_256_32_core_sign	2569088	static
+racc_core.c:445:6:RACCOON_256_32_core_verify	82176	static
+racc_core.c:500:10:RACCOON_256_32_core_batch_sign	2569088	static

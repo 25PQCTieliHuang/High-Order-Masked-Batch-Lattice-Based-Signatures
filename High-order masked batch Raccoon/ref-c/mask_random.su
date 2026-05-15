@@ -1,0 +1,4 @@
+mask_random.c:223:10:mask_rand64	8	static
+mask_random.c:230:6:mask_random_poly	16	static
+mask_random.c:249:6:mask_random_init	16	static
+mask_random.c:275:5:mask_random_selftest	528	static

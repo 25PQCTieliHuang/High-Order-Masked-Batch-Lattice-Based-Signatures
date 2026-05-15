@@ -1,0 +1,4 @@
+test_main.c:26:6:dbg_chk	80	static
+test_main.c:41:6:dbg_hex	32	static
+test_main.c:61:5:batch_test	52480	dynamic,bounded
+test_main.c:184:5:main	52448	dynamic,bounded
